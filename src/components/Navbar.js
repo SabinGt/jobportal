@@ -1,4 +1,4 @@
-import { Link,NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -48,6 +48,12 @@ const navlink = {
           
           <Typography className={classes.style} variant="h6" >
           <NavLink style={navlink} to="/about">About</NavLink>
+          </Typography>
+          <Typography className={classes.style} variant="h6" >
+          <NavLink style={navlink} to="/login">Login</NavLink>
+          </Typography>
+          <Typography className={classes.style} variant="h6" >
+          <NavLink style={navlink} to="/signup">Signup</NavLink>
           </Typography>
           
         </Toolbar>
